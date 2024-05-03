@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F4F6F6"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/bilSummary_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        tools:text="Bill Summary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/gst_txt"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/gst_icon"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="16dp"
+            android:text="GST" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:text="\u20B9 9.25 " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:id="@+id/delivery_instruction"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/deliveryboy_icon"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="16dp"
+            android:text="Delivery partner fee" />
+
+        <TextView
+            android:id="@+id/delivery_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:text="\u20B9 20 " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:id="@+id/platform_fee"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/platform_icon"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="16dp"
+
+            android:text="Platform fee" />
+
+        <TextView
+            android:id="@+id/platform_fee_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:text="\u20B9 5 " />
+    </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/grandtotal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="16dp"
+            android:text="Grand Total" />
+
+        <TextView
+            android:id="@+id/grandtotal_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:text="\u20B9 580 " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/coupon"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="#1075EF"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="16dp"
+            android:text="Restaurant Coupon" />
+
+        <TextView
+            android:id="@+id/coupon_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:text="\u20B9 -125 " />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/pay"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="#020810"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="16dp"
+            android:text="To pay" />
+
+        <TextView
+            android:id="@+id/pay_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            tools:text="\u20B9 600 " />
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="15dp"
+        >
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="10dp"
+           android:background="#FAEBEB"
+
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Donate to Feeding India"
+               android:drawableEnd="@drawable/info_icon"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:drawablePadding="10dp"
+               android:fontFamily="sans-serif"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Your donation will help us serve meals to marginalised communities."
+               android:textSize="15dp"
+               android:textColor="#857777"
+               />
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

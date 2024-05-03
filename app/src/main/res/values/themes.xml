@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Swiggy_layout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--
+        Hide app icon on splash screen
+        -->
+        <item name="android:windowDisablePreview">true</item>
+<!--         Customize your light theme here. -->
+         <item name="colorPrimary">@color/button_color</item>
+    </style>
+    <style name="button_style" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/button_color</item>
+    </style>
+
+    <style name="text_outline_style" parent="ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
+        <item name="boxStrokeColor">#4E4A4A</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">#4E4A4A</item>
+        <item name="android:colorControlActivated">#4E4A4A</item>
+
+    </style>
+    <style name="Theme.Swiggy_layout" parent="Base.Theme.Swiggy_layout" />
+
+
+</resources>

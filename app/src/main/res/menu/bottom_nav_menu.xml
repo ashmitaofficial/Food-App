@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Explore_txt"
+        android:title="Explore"
+        android:iconTint="@color/button_color"
+        android:icon="@drawable/explore_icon"
+        />
+
+    <item
+        android:id="@+id/order_txt"
+        android:title="Orders"
+        android:iconTint="@color/button_color"
+        android:icon="@drawable/order_icon"
+        />
+
+    <item
+        android:id="@+id/profile_txt"
+        android:title="Profile"
+        android:iconTint="@color/button_color"
+        android:icon="@drawable/profile_icon"
+        />
+</menu>
