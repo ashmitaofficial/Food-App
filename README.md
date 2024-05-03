@@ -1,1 +1,8 @@
-# Food-App
+![Screenshot_20240504-003518_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/bf48957b-3135-48cd-a114-a4d3d7d4f9bf)
+![Screenshot_20240504-004050_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/bdc51504-1e0f-48b9-a65c-6aff6727e48c)
+![Screenshot_20240504-004101_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/9852b9dc-f894-49e0-bdbe-13e6de11c59f)
+![Screenshot_20240504-004037_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/4cfcec9b-02f2-463b-b413-829a160dd850)
+![Screenshot_20240504-004031_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/f6425a1e-1f41-478e-aec6-dc3839845f22)
+![Screenshot_20240504-004020_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/d2284055-7309-4919-89b4-ad0f52c0338c)
+![Screenshot_20240504-005642_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/928ecc6d-117e-4939-a155-b2ce314a12a4)
+![Screenshot_20240504-005717_Swiggy_layout](https://github.com/ashmitaofficial/Food-App/assets/168858244/498599fa-412d-43a0-9754-d986802021d8)
